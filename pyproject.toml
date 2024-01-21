@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "duck-duck-telegram-user-bot"
+version = "1.0.0"
+description = ""
+authors = ["Eldos <eldos.baktybekov@gmail.com>"]
+readme = "README.md"
+packages = [{include = "duck_duck_telegram_user_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyrogram = "^2.0.106"
+tgcrypto = "^1.2.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
