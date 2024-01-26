@@ -12,7 +12,7 @@ async def on_studmanas_message(_: Client, message: Message) -> None:
     text = message.text.lower()
 
     if message.from_user.username == 'iris_moon_bot':
-        if 'работы на ферме' in text or 'зачёт' in text:
+        if 'работы на ферме' in text or 'зачёт' in text or 'купить минусит' in text:
             await message.delete()
     else:
         if 'ферма' in text:
